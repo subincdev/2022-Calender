@@ -1,0 +1,124 @@
+.month {
+  display: inline-block;
+  width: 400px;
+}
+
+.holiday {
+  color: red;
+}
+
+.sprite {
+  width: 200px;
+  height: 200px;
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+}
+
+.sprite-1 {
+  width: 200px;
+  height: 200px;
+  background-position: 0 0;
+}
+
+.sprite-10 {
+  width: 200px;
+  height: 200px;
+  background-position: -200px 0;
+}
+
+.sprite-11 {
+  width: 200px;
+  height: 200px;
+  background-position: -400px 0;
+}
+
+.sprite-12 {
+  width: 200px;
+  height: 200px;
+  background-position: 0 -200px;
+}
+
+.sprite-2 {
+  width: 200px;
+  height: 200px;
+  background-position: -200px -200px;
+}
+
+.sprite-3 {
+  width: 200px;
+  height: 200px;
+  background-position: -400px -200px;
+}
+
+.sprite-4 {
+  width: 200px;
+  height: 200px;
+  background-position: 0 -400px;
+}
+
+.sprite-5 {
+  width: 200px;
+  height: 200px;
+  background-position: -200px -400px;
+}
+
+.sprite-6 {
+  width: 200px;
+  height: 200px;
+  background-position: -400px -400px;
+}
+
+.sprite-7 {
+  width: 200px;
+  height: 200px;
+  background-position: -600px 0;
+}
+
+.sprite-8 {
+  width: 200px;
+  height: 200px;
+  background-position: -600px -200px;
+}
+
+.sprite-9 {
+  width: 200px;
+  height: 200px;
+  background-position: -600px -400px;
+}
+
+/* table layout */
+table {
+  margin: 0 auto;
+  height: 300px;
+}
+
+.col-width {
+  width: 40px;
+}
+
+.month-rows {
+  text-align: center;
+}
+
+.last-month-rows {
+  margin-bottom: 30px;
+}
+
+/* table design */
+
+.year-name {
+  margin-top: 30px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.month-name {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.my-birthday {
+  color: rgb(255, 167, 4);
+}
